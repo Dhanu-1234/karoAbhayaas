@@ -1,0 +1,74 @@
+.navbar {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgb(0, 0, 0.5) 0px 0px 3px 1px;
+}
+
+.navigation-link {
+    text-decoration: none;
+}
+
+.routes-list {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.route-item {
+    margin: 10px;
+}
+
+.join-us-btn {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.route-name {
+    margin: 0px;
+}
+
+.icon-styles {
+    height: 20px;
+    width: 20px;
+}
+
+@media screen and (max-width: 768px){
+    .header-heading {
+        font-size: 17px;
+    }
+
+    .route-item {
+        margin: 3px;
+    }
+
+    .route-name {
+        font-size: 8px;
+    }
+
+    .icon-styles {
+        height: 12px;
+        width: 12px;
+    }
+
+    .join-us-btn {
+        padding: 5px;
+        font-size: 8px;
+    }
+
+    .navbar {
+        width: 100vw;
+    }
+}

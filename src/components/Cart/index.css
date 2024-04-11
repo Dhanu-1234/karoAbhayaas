@@ -1,0 +1,71 @@
+.cart-container {
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-details-container {
+    width: 80%;
+    min-height: 80vh;
+    max-height: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #bfbfbf;
+}
+
+.cart-summary {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px 0px;
+}
+
+.rupee-icon {
+    height: 25px;
+    width: 25px;
+    padding-top: 7px;
+}
+
+.checkout-btn {
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+    border-width: 0px;
+    cursor: pointer;
+}
+
+.cart-line {
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #bfbfbf;
+    margin-top: 5px;
+}
+
+.cart-products-list {
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px){
+    .cart-details-container {
+        width: 95%;
+    }
+}

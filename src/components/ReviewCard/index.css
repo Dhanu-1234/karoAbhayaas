@@ -1,0 +1,16 @@
+.review-card {
+    background-color: #f2f2f2;
+    list-style: none;
+    width: 390px;
+    padding: 20px;
+    margin: 10px 0px 10px;
+    border-radius: 15px;
+}
+
+.customer-name {
+    margin: 10px;
+}
+
+.review {
+    margin: 10px;
+}

@@ -1,0 +1,20 @@
+.student-card {
+    background-color: #f2f2f2;
+    list-style: none;
+    width: 390px;
+    height: 400px;
+    margin: 10px 0px 10px;
+}
+
+.student-img {
+    height: 280px;
+    width: 100%;
+}
+
+.student-name {
+    margin: 10px;
+}
+
+.student-review {
+    margin: 10px;
+}
